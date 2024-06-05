@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.iss.WindowLogin">
+   <children>
+      <Button layoutX="48.0" layoutY="312.0" mnemonicParsing="false" text="Login" fx:id="prezentButton" onAction="#initialialize"/>
+      <Button layoutX="41.0" layoutY="100.0" mnemonicParsing="false" text="Nume" />
+      <TextField layoutX="90.0" layoutY="100.0" fx:id="numeField"/>
+      <Button layoutX="50.0" layoutY="361.0" mnemonicParsing="false" text="Sign up angajat" />
+      <Button layoutX="40.0" layoutY="132.0" mnemonicParsing="false" text="Parola" />
+      <PasswordField layoutX="90.0" layoutY="132.0" fx:id="parolaField"/>
+   </children>
+</AnchorPane>

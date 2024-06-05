@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.iss.WindowSef">
+    <children>
+        <TableView fx:id="tabel_angajati" layoutX="41.0" layoutY="40.0" prefHeight="133.0" prefWidth="301.0">
+            <columns>
+                <TableColumn fx:id="col_nume" prefWidth="95.0" text="Nume angajat" />
+                <TableColumn fx:id="col_ora" prefWidth="97.0" text="Ora logarii" />
+            </columns>
+        </TableView>
+        <TextArea fx:id="descriere_sarcina" layoutX="374.0" layoutY="34.0" prefHeight="108.0" prefWidth="195.0" />
+        <Button layoutX="397.0" layoutY="147.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Atribuie sarcina" onAction="#atribuie_sarcina" />
+        <!-- Înlocuiește TableView cu ListView -->
+        <ListView fx:id="lista_sarcini" layoutX="47.0" layoutY="193.0" prefHeight="161.0" prefWidth="536.0" />
+        <Button layoutX="47.0" layoutY="364.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" text="Sterge sarcina" onAction="#stergeSarcina"/>
+        <Button layoutX="202.0" layoutY="366.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="104.0" text="Modifica sarcina" onAction="#modificaSarcina" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.iss.WindowAngajat">
+    <children>
+        <TableView fx:id="tabel_sarcini" layoutX="63.0" layoutY="45.0" prefHeight="200.0" prefWidth="493.0">
+            <columns>
+                <TableColumn fx:id="col_descriere" prefWidth="489.0" text="Descriere task" />
+            </columns>
+        </TableView>
+        <Button layoutX="72.0" layoutY="298.0" mnemonicParsing="false" text="Rezolva sarcina" onAction="#rezolva_sarcina" />
+        <Button layoutX="398.0" layoutY="298.0" mnemonicParsing="false" text="Log out" onAction="#logout"/>
+        <TextField fx:id="descriere_text" layoutX="72.0" layoutY="348.0" prefHeight="25.0" prefWidth="484.0" />
+    </children>
+</AnchorPane>
